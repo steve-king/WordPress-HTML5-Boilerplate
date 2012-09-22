@@ -1,4 +1,7 @@
+	<footer id="footer">
 	
+	</footer>
+		
 	<?php wp_footer();?>
 	
 	<script>window.jQuery || document.write('<script src="<?php bloginfo('template_directory')?>/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
