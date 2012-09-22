@@ -1,6 +1,6 @@
 #WordPress HTML5 Boilerplate
 
-Barebones WordPress theme based on HTML5 boilerplate: http://html5boilerplate.com/
+Barebones WordPress theme based on HTML5 Boilerplate (version 4.0): http://html5boilerplate.com/
 
 Includes automatic stylesheet/script versioning functions (for cache busting), LESS CSS folder (be sure to compile "style.less" to "style.css" located in the root directory)
 
