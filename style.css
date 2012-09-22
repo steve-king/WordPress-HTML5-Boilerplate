@@ -1,6 +1,6 @@
 /*
-Theme Name: Copy Writer Services
-Description: Custom theme for copywriterservices.co.uk
+Theme Name: HTML5 Boilerplate
+Description: Barebones WordPress theme based on HTML5 boilerplate: http://html5boilerplate.com/
 Author: Steve King
 Author URI: http://stevek1ng.co.uk
 Version: 1.0
@@ -282,7 +282,6 @@ textarea {
   color: #000;
   padding: 0.2em 0;
 }
-/* Styles go here */
 /* ==========================================================================
    Media Queries
    ========================================================================== */

@@ -25,3 +25,5 @@
     	<h1><?php bloginfo('title');?></h1>
     	<p><?php bloginfo('description');?></p>
 	</header>
+	
+	<div id="main">
