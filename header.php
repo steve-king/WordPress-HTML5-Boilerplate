@@ -21,9 +21,19 @@
 		<p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
 	<![endif]-->
     
-	<header id="header">
+	<header class="site_header">
     	<h1><?php bloginfo('title');?></h1>
     	<p><?php bloginfo('description');?></p>
+    	
+    	<nav class="site_nav">
+    		<?php wp_nav_menu(array(
+					'theme_location' => 'main_nav',
+					'container'	=> false,
+					'link_before' => '<span>',
+					'link_after' => '</span>'
+			));?>
+    	</nav>
+    	
 	</header>
 	
-	<div id="main">
+	<div class="site_main">

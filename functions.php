@@ -39,16 +39,16 @@
     	// Add scripts to this array as neccessary
     	$scripts = array(
     		'modernizr' => array(
-    			'url' => get_bloginfo('template_directory').'/js/vendor/modernizr-2.6.1.min.js',
+    			'url' => get_bloginfo('template_directory').'/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js',
     			'dependencies' => true,
-    			'version' => '2.6.1',
+    			'version' => '2.6.2',
     			'in_footer' => false
     		),
     		
     		'jquery' => array(
-    			'url' => 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js',
+    			'url' => 'http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js',
     			'dependencies' => false,
-    			'version' => '1.8.1',
+    			'version' => '1.9.1',
     			'in_footer' => true
     		),
     		
@@ -75,12 +75,9 @@
     }
 	}    
 	add_action('init', 'register_scripts');
+		
 	
-	
-	
-	
-	
-	// Register menu
+	// Register menus
 	register_nav_menus(
 		array(
 		  'main_nav' => 'Main Navigation'

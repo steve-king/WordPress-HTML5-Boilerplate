@@ -1,3 +1,3 @@
-<div class="side-col">
+<div class="side_col">
 	<!-- Sidebar content -->
-</div>
+</div><!-- END .side_col -->
