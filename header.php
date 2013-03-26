@@ -22,7 +22,7 @@
 	<![endif]-->
     
 	<header class="site_header">
-    	<h1><?php bloginfo('title');?></h1>
+    	<a href="<?php bloginfo('url')?>" class="site_logo"><?php bloginfo('title');?></a>
     	<p><?php bloginfo('description');?></p>
     	
     	<nav class="site_nav">
